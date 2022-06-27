@@ -1,6 +1,5 @@
 #include "fileGenerator.hpp"
 #include "binaryOps.hpp"
-
 void FileGenerator::generateFile(const std::string name, const char value, const int count)
 {
     std::ofstream file;

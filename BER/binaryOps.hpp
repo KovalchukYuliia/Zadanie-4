@@ -18,5 +18,9 @@ public:
 	static void calculateBER(std::string file1, std::string file2);
 	static void printBERResults(berResults results);
 private:
+#include <stdint.h>
+
+class BinaryOps {
+public:
 	static uint8_t calculateHammingDistance(uint8_t bin1, uint8_t bin2);
 };

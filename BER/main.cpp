@@ -1,6 +1,6 @@
+
 #include "binaryOps.hpp"
 #include "fileGenerator.hpp"
-
 int main(int argc, char *argv[])
 {
     std::string file1, file2;
@@ -23,6 +23,4 @@ int main(int argc, char *argv[])
 
         BinaryOps::calculateBER(file1, file2);
     }
-
     exit(0);
-}
