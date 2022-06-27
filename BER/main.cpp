@@ -1,7 +1,6 @@
 #include <iostream>
 #include "binaryOps.hpp"
 #include "fileGenerator.hpp"
-
 int main()
 {
     std::cout << "Bit Error Rate" << std::endl;
