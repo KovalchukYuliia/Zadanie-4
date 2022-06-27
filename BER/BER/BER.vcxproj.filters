@@ -21,9 +21,15 @@
     <ClCompile Include="binaryOps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fileGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="binaryOps.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileGenerator.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
